@@ -1,7 +1,8 @@
 <h1 align="center"> 
 	Libft
 </h1>
-<p><i><b>Custom C Library</b></i></p>
+
+<p align="center"><i><b>Custom C Library</b></i></p>
 
 ## Overview
 
