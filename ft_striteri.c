@@ -6,7 +6,7 @@
 /*   By: kbilgili <kbilgili@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/10 14:34:53 by kbilgili          #+#    #+#             */
-/*   Updated: 2023/07/14 16:52:10 by kbilgili         ###   ########.fr       */
+/*   Updated: 2023/12/25 04:09:45 by kbilgili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	int		length;
 	int		i;
 
-	length = ft_strlen(s);
 	i = 0;
 	while (s[i])
 	{
