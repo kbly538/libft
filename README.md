@@ -4,6 +4,13 @@
 
 <p align="center"><i><b>Custom C Library</b></i></p>
 
+ <p align="center">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/kbly538/libft?color=lightblue" />
+	<img alt="Number of lines of code" src="https://img.shields.io/badge/total_lines-1477-green" />
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/kbly538/libft?color=blue" />
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kbly538/libft?color=green" />
+</p>
+
 ## Overview
 
 Libft is a custom C library that provides a collection of standard functions, designed to be reusable in various C projects. This library includes implementations of fundamental operations, allowing developers to streamline their code by using established functionalities.
