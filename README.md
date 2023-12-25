@@ -73,19 +73,19 @@ Libft is a custom C library that provides a collection of standard functions, de
 	make
 
 To use the Libft library in your C projects, include the "libft.h" header file and compile your code with the compiled "libft.a" library. For example:
+   ```c
+   #include "libft.h"
+   #include <stdio.h>
 
-	```c
-	#include "libft.h"
-	#include <stdio.h>
-
-	int main() {
-		char str[] = "Hello, World!";
-		size_t length = ft_strlen(str);
-		printf("Length of the string: %zu\n", length);
-		return 0;
-	}
-
+   int main() {
+       char str[] = "Hello, World!";
+       size_t length = ft_strlen(str);
+       printf("Length of the string: %zu\n", length);
+       return 0;
+   }
+   ```
 Compile with:
+```bash
+gcc -o my_program my_program.c libft.a
+```
 
-	```bash
-	gcc -o my_program my_program.c libft.a
