@@ -84,3 +84,8 @@ int main() {
     printf("Length of the string: %zu\n", length);
     return 0;
 }
+
+Compile with:
+
+```bash
+gcc -o my_program my_program.c libft.a
