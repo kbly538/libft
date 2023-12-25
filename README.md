@@ -70,7 +70,7 @@ Libft is a custom C library that provides a collection of standard functions, de
 	cd libft
 2. **Build the Static Library**
 	```bash
-	   make
+	make
 
 To use the Libft library in your C projects, include the "libft.h" header file and compile your code with the compiled "libft.a" library. For example:
 
